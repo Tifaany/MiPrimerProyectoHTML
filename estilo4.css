@@ -1,0 +1,131 @@
+body {
+    font-family:sans-serif;
+    background-color:rgb(151, 234, 247);
+    overflow-x:hidden;
+    
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(245, 240, 240);
+    padding: 0px 0px;
+    height: 80px;
+    margin: 0px ;
+    border: 1px solid black;
+    margin-bottom: 1;
+    
+}
+
+
+html{
+    overflow-x:hidden
+}
+body{
+    background: rgb(85, 206, 85);
+}
+
+table, th,tr, td{
+   width: 50%;
+   border: 0.5px solid black ;
+   border-collapse:collapse;
+   padding-right: 50%;
+   padding: 2%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   
+}
+
+#tabla2{
+    margin-right: 25%;
+    width: 10%;
+    border: 2.5px solid black ;
+    border-collapse:collapse;
+    text-align: center;
+    
+}
+
+
+footer{
+    background: darkgray;
+    margin: 0%;
+}
+
+.navegacion {
+width: 1500px;
+margin: 0.5px auto;
+background:rgb(11, 11, 11);
+text-align: center;
+    
+}
+
+.navegacion ul{
+    
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block; /* Sirve para poner el texto del menu horizontal*/
+}
+
+.menu>li>a{
+    display: block;
+    padding: 15px 20px; /* tamaño del relleno*/
+    color: rgb(249, 247, 252);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none; /*le quita la decoracion al texto*/
+}
+
+/*Efecto al pasar el mause*/
+.menu li a:hover{
+    color:hotpink;
+}
+
+/*Submenu1*/
+.submenu1{
+    position: absolute;
+    background-color: rgb(236, 233, 240);
+    visibility: hidden; 
+    opacity: 0;
+    transition:opacity 1.5s;
+
+}
+
+.submenu1 li a{
+    display: block;
+    padding: 15px;
+    color: blue;
+    font-family: initial;
+    text-decoration: none;
+}
+/* Efecto para que se desplegue el menu solo cuando pase el mause*/
+.menu li:hover .submenu1 {
+visibility: visible;
+opacity: 1;
+}
+
+/*_________________________________________________________________________*/
+
+/*Submenu2*/
+.submenu2{
+    position: absolute;
+    background-color: rgb(236, 233, 240);
+    visibility: hidden; 
+    opacity: 0;
+    transition:opacity 1.5s;
+ 
+}
+
+.submenu2 li a{
+    display: block;
+    padding: 15px;
+    color: blue;
+    font-family: initial;
+    text-decoration: none;
+}
+/* Efecto para que se desplegue el menu solo cuando pase el mause*/
+.menu li:hover .submenu2 {
+visibility: visible;
+opacity: 1;
+}

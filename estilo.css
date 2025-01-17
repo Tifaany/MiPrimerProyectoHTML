@@ -1,0 +1,153 @@
+
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightcoral;
+    padding: 15px 20px;
+    height: 80px;
+    margin: 0.5px auto;  
+   
+   
+}
+
+body {
+    font-family:sans-serif;
+    background-color:white;
+    overflow-x:hidden;
+  
+}
+html{
+    overflow-x:hidden
+}
+.divs{
+    width: 70%;
+}
+
+#div1{
+   
+    width: 900%;
+ background: rgb(242, 154, 120); 
+
+}
+
+
+video2{
+    width: 60%;
+    padding-right: 50px;
+    margin: 50px;
+    
+}
+video1{
+    width: 100px;
+    
+    
+}
+
+aside{
+    background-color: rgb(14, 13, 12);
+    width: 40%;
+    height: 490px;
+    float: right; 
+    margin: 0%;
+}
+
+img{
+    height: 490px;
+    width: 100%; 
+    margin: 0%;   
+}
+
+
+#img3{
+    height: 640px;
+    width: 90%; 
+    margin-left: 1px;
+}
+footer{
+    background: darkgray;
+    margin-top: 50px;
+}
+
+.navegacion {
+width: 1500px;
+margin: 0.5px auto;
+background: black;
+text-align: center;
+    
+}
+
+.navegacion ul{
+    
+    list-style: none;
+}
+section{
+    width: 50%;
+    
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block; /* Sirve para poner el texto del menu horizontal*/
+}
+
+.menu>li>a{
+    display: block;
+    padding: 15px 20px; /* tamaño del relleno*/
+    color: rgb(249, 247, 252);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none; /*le quita la decoracion al texto*/
+}
+
+/*Efecto al pasar el mause*/
+.menu li a:hover{
+    color:hotpink;
+}
+
+/*Submenu1*/
+.submenu1{
+    position: absolute;
+    background-color: rgb(236, 233, 240);
+    visibility: hidden; 
+    opacity: 0;
+    transition:opacity 1.5s;
+
+}
+
+.submenu1 li a{
+    display: block;
+    padding: 15px;
+    color: blue;
+    font-family: initial;
+    text-decoration: none;
+}
+/* Efecto para que se desplegue el menu solo cuando pase el mause*/
+.menu li:hover .submenu1 {
+visibility: visible;
+opacity: 1;
+}
+
+/*_________________________________________________________________________*/
+
+/*Submenu2*/
+.submenu2{
+    position: absolute;
+    background-color: rgb(236, 233, 240);
+    visibility: hidden; 
+    opacity: 0;
+    transition:opacity 1.5s;
+ 
+}
+
+.submenu2 li a{
+    display: block;
+    padding: 15px;
+    color: blue;
+    font-family: initial;
+    text-decoration: none;
+}
+/* Efecto para que se desplegue el menu solo cuando pase el mause*/
+.menu li:hover .submenu2 {
+visibility: visible;
+opacity: 1;
+}
+
